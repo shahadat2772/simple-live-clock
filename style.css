@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(37, 226, 163);
+}
+
+.clock {
+  background-color: rgb(150, 42, 177);
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clockContainer {
+  /* padding-left: 25%;
+  padding-right: 25%; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainClockContainer {
+  width: 290px;
+  display: flex;
+  justify-content: center;
+}
