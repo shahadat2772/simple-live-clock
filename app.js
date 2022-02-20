@@ -2,7 +2,7 @@ function timeAndDate() {
   var d = new Date();
   var s = d.getSeconds();
   var m = d.getMinutes();
-  var h = d.getHours() - 12;
+  var h = d.getHours();
   var date = d.getDate();
   var year = d.getFullYear();
 
@@ -18,6 +18,12 @@ function timeAndDate() {
   }
   if (date < 10) {
     date = 0 + "" + date;
+  }
+
+  if (h > 12) {
+    h = h - 12;
+  } else {
+    h = h;
   }
 
   const months = [
